@@ -1,10 +1,10 @@
-# Syncpath - Personlaized Health and Wellness App
+# Syncpath - Personalized Health and Wellness App
 
 **Syncpath** is a cross-platform mobile application developed using React Native. It allows users to track their health metrics and monitor their wellness goals conveniently on both iOS and Android devices.
 
 ## Features
 
-- **Real-time Health Metrics:** Integrates with the Google Fit API to fetch and display real-time health metrics such as steps count, heart rate, and stress levels.
+- **Real-time Health Metrics:** Integrates with the Health Connect API to fetch and display real-time health metrics such as steps count, heart rate, and stress levels.
 - **Offline Data Storage:** Utilizes Realm for local data storage, ensuring efficient management and retrieval of user health data even when offline.
 - **User-friendly Interface:** Provides a clean and intuitive interface designed for easy navigation and seamless user experience.
 
@@ -13,7 +13,7 @@
 - **React Native:** A framework for building native apps using React.
 - **JavaScript/TypeScript:** Programming languages used for application logic and type safety.
 - **Realm:** Local database used for storing and managing user health data.
-- **Google Fit API:** Integrated API for accessing and fetching real-time health metrics from Google Fit.
+- **Health Connect API:** Integrated API for accessing and fetching real-time health metrics from Health Connect.
 
 ## Prerequisites
 
@@ -29,21 +29,21 @@ To run the Health & Wellness App locally on your machine, follow these steps:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/temptide.git
+git clone https://github.com/precious-soda/Syncpath
 cd Syncpath
 ```
 
-### 2.Install Dependencies
+### 2. Install Dependencies
 
 ```bash
 npm install
 ```
 
-### 3. Configure Google Fit API credentials
+### 3. Setup Android Native Modules
 
-Configure the Google Fit API using the documentation.
+Ensure Health Connect API is integrated in the native Android project.
 
-### 4.Running the Application
+### 4. Running the Application
 
 ```bash
 npx react-native run-android
